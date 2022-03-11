@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" href="#">
+    <style>body, html {
+        font-family : 'Segoe UI', sans-serif;
+    }
+
+    div.btn-dashed-dash {
+        width: 8px;
+        background-color: #fff;
+        position: relative;
+        height: 2px;
+        -webkit-transition: left 0.25s ease-in 0.02s;
+        -moz-transition: left 0.25s ease-in 0.02s;
+        transition: left 0.25s ease-in 0.02s;
+    }
+    div.btn-dashed-dash-1-1 {
+        top: -7px;
+        left: 105px;
+    }
+    div.btn-dashed-dash-1-2 {
+        top: 7px;
+        left: 21px;
+    }
+    div.btn-dashed-dash-2-1 {
+        top: -7px;
+        left: 161px;
+    }
+    div.btn-dashed-dash-2-2 {
+        top: 7px;
+        left: 21px;
+    }
+    div.btn-dashed:hover div.btn-dashed-dash-1-1 {
+        left: 21px;
+    }
+    div.btn-dashed:hover div.btn-dashed-dash-1-2 {
+        left: 105px;
+    }
+    div.btn-dashed:hover div.btn-dashed-dash-2-1 {
+        left: 21px;
+    }
+    div.btn-dashed:hover div.btn-dashed-dash-2-2 {
+        left: 161px;
+    }
+    .center {
+        margin: 30% 30%;
+    }
+    div.btn-dashed a {
+        padding: 7px 20px;
+        border: 1px solid #adabab;
+        text-decoration: none;
+        color: #504a4a;
+        font-weight: 600;
+    }</style>
+</head>
+<body>
+    <div class="center">
+        <div class="btn-dashed left">
+            <div class="btn-dashed-dash btn-dashed-dash-1-1"></div>
+            <a href="#.php">Мои работы</a>
+            <div class="btn-dashed-dash btn-dashed-dash-1-2"></div>
+        </div>
+    </div>
+</body>
+</html>

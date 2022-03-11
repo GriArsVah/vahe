@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#.ico" type="image/x-icon">
+    <title>Sign In</title>
+	<style>
+		legend{
+			text-align: center;
+		}
+		.error{color:red;}
+	</style>
+</head>
+<body>
+
+	<h1>Форма регистрации на сайте</h1>
+	<fieldset>
+		<legend>Sign In:</legend>
+		<form method="post" action="/sign-in.php">
+			<label for="FirstName">First name:</label>
+			<input type="text" id="FirstName" name="FirstName" placeholder="Vahe">
+			<span class="error">* <?php echo $FirstName;?></span><br><br>
+
+			<label for="LastName">Last name:</label>
+			<input type="text" id="LastName" name="LastName" placeholder="Grigoryan">
+			<span class="error">* <?php echo $LastName;?></span><br><br>
+
+			<label for="birthday">Birthday:</label>
+			<input type="date" id="birthday" name="Birthday">
+			<span class="error">* <?php echo $LastName;?></span><br><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="Email">
+			<span class="error">* <?php echo $LastName;?></span><br><br>
+
+			Пол:
+			<label>
+				<input type="radio" name="gender" value="Мужской">
+				Мужской
+			</label>
+			<label>
+			<input type="radio" name="gender" value="Женский">
+				Женский
+			</label>
+			<span class="error">* <?php echo $LastName;?></span>
+			<hr>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Сбросить">
+		</form>
+		<p><span class="error">* обязательное поле</span></p>
+	</fieldset>
+
+</body>
+</html>

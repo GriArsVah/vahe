@@ -1,0 +1,64 @@
+/*
+Teg # .{
+	Свойство: значение;
+}
+Teg, #, .{
+	Свойство: значение;
+}
+*/
+
+body{
+	font-family: Verdana, Tahoma, san-serif;/*Семейство шрифтов*/
+	font-size: 16px;/*Размер шрифта*/
+	
+	margin:0 auto;
+	padding:10px;
+	
+	width: 1000px;/*1034*/
+	height: auto;
+}
+.i{
+	font-style: italic;/*Курсив*/
+}
+.b{
+	font-weight: bold;/*Жирность*/
+}
+#header{
+	text-decoration: underline;/*Подчеркивание*/
+}
+.a{
+	text-align: justify;/*Выравнивание по всей ширине*/
+}
+.c{
+	text-indent: 20px;/*Красная строка*/
+}
+.zaq{
+	border:1px solid black;/*Параметры рамки*/
+	list-style-type: square;/*Стиль списка*/
+	list-style-position: outside;/*Позиция списка*/
+	list-style-image:url(image/);/*Картинка списка*/
+}
+.i{
+	line-height: 2;/*Межстрочный интервал*/
+	word-spacing: normal;/*Интервал между словами*/
+	letter-spacing: normal;/*Интервал между буквами*/
+	text-transform: uppercase;/*Все буквы большие*/
+	text-transform: lowercase;/*Все буквы маленькими*/
+	text-transform: capitalize;/*У всех слов большие первые буквы*/
+}
+table, th, td{
+	border:1px solid black;/*Параметры рамки*/
+	text-align: center;/*Выравнивание по всей ширине*/
+}
+table{
+	width: 700px;/*Ширина*/
+	border-collapse: collapse;/*Всхлопывание якеек*/
+}
+th, td{
+	height:;/*Высота*/
+	padding:;/*Внутрений отступ*/
+	vertical-align:;/*Вертикальное выравнивание*/
+}
+th{
+	background-color: gray;/*Фоновый цвет*/
+}

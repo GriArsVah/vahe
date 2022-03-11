@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<fieldset>
+    <legend>Form block</legend>
+
+    <!-- Если в форме используется <input type="file"> то обязательно нужно указать enctype="multipart/form-data" -->
+    <!-- multiple Позволяет загрузить несколько файлов одновременно. -->
+    <!-- maxlength Максимальное количество символов разрешенных в тексте. -->
+    <!-- autofocus Устанавливает фокус в поле формы. -->
+    <!-- form Связывает поле с формой по её идентификатору. -->
+    
+    
+    <form action="#" method="post">
+
+        <!-- Input type text -->
+        <label for="first-name">First-name: <br>
+            <input type="text" id="first-name">
+        </label>
+        <br><br>
+        <!-- /Input type text -->
+
+        <!-- Input type text -->
+        <label for="last-name">Last-name: <br>
+            <input type="text" id="last-name">
+        </label>
+        <br><br>
+        <!-- /Input type text -->
+
+        <!-- Input type email -->
+        <label for="email">E-mail: <br>
+            <input type="email" id="email">
+        </label>
+        <br><br>
+        <!-- /Input type email -->
+
+        <!-- Input type password -->
+        <label for="password">Password: <br>
+            <input type="password" id="password" required>
+        </label>
+        <br><br>
+        <!-- /Input type password -->
+
+        <!-- Input type color -->
+        <label for="color">Choose color: <br>
+            <input type="color" id="color">
+        </label>
+        <br><br>
+        <!-- /Input type color -->
+
+        <!-- Input type date -->
+        <label for="date">Choose date: <br>
+            <input type="date" id="date">
+        </label>
+        <br><br>
+        <!-- /Input type date -->
+
+        <!-- Input type time -->
+        <label for="time">Choose time: <br>
+            <input type="time" id="time">
+        </label>
+        <br><br>
+        <!-- /Input type time -->
+
+        <!-- Input type file -->
+        <label for="file">Choose file: <br>
+            <input multiple type="file" id="file">
+        </label>
+        <br><br>
+        <!-- /Input type file -->
+
+        <!-- Input type number -->
+        <label for="number">Choose number: <br>
+            <input type="number" id="number">
+        </label>
+        <br><br>
+        <!-- /Input type number -->
+
+        <!-- Input type url -->
+        <label for="url">Url: <br>
+            <input type="url" id="url">
+        </label>
+        <br><br>
+        <!-- /Input type url -->
+
+        <!-- Input type search -->
+        <label for="search">Search: <br>
+            <input type="search" id="search">
+        </label>
+        <br><br>
+        <!-- /Input type search -->
+
+        <!-- Input type range -->
+        <label for="range">Range: <br>
+            <input type="range" id="range">
+        </label>
+        <br><br>
+        <!-- /Input type range -->
+
+        <!-- Input type radio -->
+        <label for="male">
+            <input type="radio" id="male" name="radio">Male
+        </label>
+        <label for="feminine">
+            <input type="radio" id="feminine" name="radio">Feminine
+        </label>
+        <br><br>
+        <!-- /Input type radio -->
+
+        <!-- Input type checkbox -->
+        <label for="rm">
+            <input type="checkbox" id="rm">Remember me
+        </label>
+        <label for="sm">
+            <input type="checkbox" id="sm">Send mail
+        </label>
+        <br><br>
+        <!-- /Input type checkbox -->
+
+        <!-- Select -->
+        <label for="city">
+            <select id="city">
+                <option value="0">Choose your city</option>
+                <option value="1">Yerevan</option>
+                <option value="2">Moscow</option>
+                <option value="3">Paris</option>
+            </select>
+        </label>
+        <br><br>
+        <!-- /Select -->
+
+        <!-- Input type hidden -->
+        <input type="hidden">
+        <!-- /Input type hidden -->
+
+        <!-- Input type textarea -->
+        <label for="text">Message: <br>
+            <textarea id="text" cols="50" rows="10"></textarea>
+        </label>
+        <br><br>
+        <!-- /Input type textarea -->
+
+        <!-- BUTTONS -->
+
+        <!-- Input type image -->
+        <input type="image" id="image" src="images/button.png">
+        <br><br>
+        <!-- Input type image -->
+
+        <!-- Input type submit -->
+        <input type="submit" value="Type submit">
+        <br><br>
+        <!-- /Input type submit -->
+
+        <!-- Input type button -->
+        <input type="button" value="Type button">
+        <br><br>
+        <!-- /Input type button -->
+
+        <!-- Input type reset -->
+        <input type="reset" value="Type reset">
+        <br><br>
+        <!-- /Input type reset -->
+
+        <button type="submit">Button submit</button>
+        <button type="button">Button button</button>
+        <button type="reset">Button reset</button>
+    </form>
+
+</fieldset>
+
+
+
+</body>
+</html>

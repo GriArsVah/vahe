@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+	<style>
+		legend{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Форма входа на сайт</h1>
+	<fieldset>
+		<legend>Sign Up:</legend>
+		<form method="post" action="sign-up.php">
+			<p>
+				<label for="login">Логин
+					<input type="text" id="login" name="login" placeholder="You Login">
+				</label>
+			<p>
+			</p>
+				<label for="password">Пароль
+					<input type="password" id="password" name="password" placeholder="You Password">
+				</label>
+			</p><hr>
+			<input required type="submit" value="Войти">
+			<input required type="reset" value="Сбросить">
+		</form>
+	</fieldset>
+
+</body>
+</html>
