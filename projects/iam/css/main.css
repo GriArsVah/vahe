@@ -41,9 +41,7 @@ body {
   min-height: -webkit-fill-available;
 }
 
-.offcanvas {
-  overflow-y: auto;
-}
+
 .offcanvas-start,.offcanvas-end {
   width: auto;
 }

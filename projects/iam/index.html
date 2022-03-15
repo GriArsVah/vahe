@@ -183,7 +183,7 @@ https://www.markuptag.com/ -->
 
 
   <!--left-->
-  <aside class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExampleStart" aria-labelledby="offcanvasExampleLabelStart">
+  <aside class="offcanvas offcanvas-start overflow-auto" tabindex="-1" id="offcanvasExampleStart" aria-labelledby="offcanvasExampleLabelStart">
     <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
       <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
         <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
@@ -264,8 +264,8 @@ https://www.markuptag.com/ -->
     </div>
   </aside>
 
-  <main class="container content">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 row-cols-xxl-12">
+  <main class="container content my-3 py-3">
+    <section class="row my-2 py-2 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 row-cols-xxl-12 gx-4 gy-3">
       <div class="col">
         <details>
           <summary>1 RYFHC</summary>
@@ -341,7 +341,7 @@ https://www.markuptag.com/ -->
               Text
           </details>
       </div>
-    </div>
+    </section>
   </main>
 
 
@@ -380,14 +380,16 @@ https://www.markuptag.com/ -->
           </li>
         </ul>
     </div>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-xs" data-bs-toggle="modal" data-bs-target="#SignIn">
-      Sign In
-    </button>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#SignUp">
-      Sign Up
-    </button>
+    <div class="btn-group p-1" role="group" aria-label="btns">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#SignIn">
+        Sign In
+      </button>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#SignUp">
+        Sign Up
+      </button>
+    </div>
   </aside>
 
   <footer class="container py-5">
