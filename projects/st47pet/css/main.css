@@ -1,0 +1,6 @@
+html, body { overflow-x: hidden; }
+* { box-sizing: border-box }
+html { overflow-x: hidden }
+.selector-for-some-widget { box-sizing: content-box }
+a, svg { text-decoration: none; color: black;}
+iframe{ height:450px;border:0;}

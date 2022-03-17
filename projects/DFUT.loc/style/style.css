@@ -1,0 +1,177 @@
+/*
+
+*{
+    background: red;
+}
+tagName{
+    background: red;
+}
+.idName{
+    background: red;
+}
+.clasName{
+    background: red;
+}
+[attrName]{
+    background: red;
+}
+[attrName="value"]{
+    background: red;
+}
+
+*/
+
+/*
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+*/
+
+
+/*
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+#sortable li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; }
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+ }
+body{
+	overflow: auto;/*Добавление полосы прокрутки*/
+	/*background-image: url(../img/patternW.png);*/
+	background-color: #FFFFFF;/*#111111*/
+	width: 100%;
+}
+#wrapper{
+	width: 600px;
+	margin: 0 auto;
+}
+header,nav,section,article,footer{
+	display: block;
+	box-shadow: 3px 3px #CCCCCC;
+	border-radius: 5px;
+    padding: 5px 5px;
+	height: auto;/*Высота автоматическая*/
+}
+header{
+	width: 100%;
+	min-height: 200px;
+	background-color: #FF0000;
+	margin-bottom: 10px;
+}
+
+.userChange{
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+#formSubmit{
+    position: relative;
+    top: 5px;
+    right: -440px;
+}
+#formSubmit input{
+	border: 1px solid black;
+	box-shadow: 3px 3px #CCCCCC;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 2px 0;
+}
+#formSubmit button{
+	position: relative;
+	top: 8px;
+	right: -115px;
+	box-shadow: 3px 3px #CCCCCC;
+	border-radius: 5px;
+}
+
+.error{
+	color: blue;
+}
+
+nav{
+	width: 100%;
+	min-height: 70px;
+	background-color: #FFFF00;
+	margin-bottom: 10px;
+}
+
+#menu-top-left{
+	position: relative;
+	top: -20px;
+	left: 50px;
+}
+
+section{
+	width: 100%;
+	min-height: 250px;
+	background-color: #006FBF;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+article{
+	width: 80%;
+	min-height: 150px;
+	background-color: #6f30a0;
+	margin: 50px 0 5px 60px;
+	padding: 50px 20px;
+}
+footer{
+	clear: both;/*Отменяем обтекание*/
+	width: 100%;/*Ширина в процентах*/
+	min-height: 50px;/*Минимальная высота фиксированная*/
+	background-color: #FFBF00;/*Цвет фона*/
+}
+
+nav ul li{
+	background: #ccc;
+	padding: 3px;/*Внутренний отступ*/
+	display: inline-block;/*Отображать как строчный элемент*/
+	list-style-type: none;/* Убираем маркеры */
+	text-decoration: none;/*Убираем подчёркивание*/
+	border: 1px solid black;/*Задаём цвет стиль и размер границы*/
+}
+
+a:hover{
+	color:green;/*Цвет текста*/
+	text-decoration:underline;/*Подчёркиваем текст*/
+}
+a:link{/*Ссылка не посёщенная*/
+	color:green;
+}
+a:visited{/*Ссылка посёщенная*/
+	color:blue;
+}
+a:hover{/*Ссылка наведёная*/
+	color:red;
+}
+a:active{/*Ссылка активная*/
+	color:yellow;
+}
+
+/*
+#map {
+	width: 400px;
+	height: 400px;
+}*/
+
+input{
+	margin: 2px 5px;
+}
+
+#form1{
+	float: left;
+}
+#form2{
+	float: right;
+}
+
+.open{
+    display: block;
+}
+.close{
+    display: none;
+}

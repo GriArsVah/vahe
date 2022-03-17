@@ -1,0 +1,195 @@
+<!DOCTYPE html><!-- html5 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<meta name="description" lang="ru" content="Описание содержимого страницы">
+	<!--<meta name="description" lang="en" content="Description this page">-->
+	<meta name="keywords" lang="ru" content="Ключевые слова через запятую">
+	<meta name="keywords" lang="en" content="Keywords">
+
+	<meta name="author" content="DFUT">
+	<meta name="copyright" content="DFUT">
+    <meta name="application-name" content="значение">
+    <meta name="generator" content="значение">
+    <meta name="revisit-after" content="1 days">
+    <meta name="robots" content="index, follow">
+	<meta name="date" content="May 01 2018 15:30 Am"><!--Дата создания сайта-->
+
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--<meta http-equiv="refresh" content="30">-->
+    <!--<meta http-equiv="refresh" content="4; url=https://www.google.ru">-->
+
+	<!-- Комментарии не работают в теге title -->
+	<title>Page-name</title>
+
+    <!--Определяет ссылку на ресурс-->
+    <base href="index.html" target="_blank">
+
+    <!-- Устанавливаем фавикон-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--<link rel="shortcut icon" href="img/favicon.png" type="image/png">-->
+
+    <link href="style/jquery-ui.min.css" rel="stylesheet">
+    <link href="style/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="style/jquery-ui.structure.min.css" rel="stylesheet">
+	<!--Сброс стилей
+    <link href="style/reset.css" rel="stylesheet">-->
+    <!--Подключенные стили-->
+    <link href="style/style.css" rel="stylesheet" media="all">
+    <!--Подключенные медия-запросы
+    <link href="style/media-queries.css" rel="stylesheet" type="text/css">-->
+
+<!--
+[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]
+-->
+<!--
+[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+-->
+<!--
+[if lt IE 9]><script>
+	var e = ("article,aside,figcaption,figure,footer,header,hgroup,nav,section,time").split(',');
+        for (var i = 0; i < e.length; i++) {
+            document.createElement(e[i]);
+        }</script><![endif]
+-->
+<!--
+[if lt IE 9]><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]
+--></head>
+<body><!--Тело страницы-->
+<div id="wrapper">
+
+    <header class="header">
+		<h1>header</h1>
+		<p id="top">header</p>
+		<hr>
+<!--        <div class="userChange">
+            <label for="ColorFon">Можете выбрать цвета фона
+                <input id="ColorFon" type="color" name="changeColorFon">
+            </label><br>
+            <label for="colorText">Можете выбрать цвета текста
+                <input id="colorText" type="color" name="changeColorText">
+            </label>
+        </div>-->
+
+        <form id="formSubmit">
+            <label>
+                <input type="text" id="inputTextId" name="login" placeholder="Введите ваш логин">
+
+            </label>
+            <p class="error"></p>
+            <label>
+                <input type="password" id="inputPasswordId" name="password" placeholder="Введите ваш пароль">
+
+            </label>
+            <p class="error"></p>
+            <button type="submit" name="send" id="buttonSubmitSend">
+                Send<i class="far fa-share-square"></i>
+            </button>
+        </form>
+	</header>
+
+    <nav class="nav">
+        <h2>nav</h2>
+		<p>nav</p>
+		<hr>
+
+        <button type="button" id="btn-top-left" class="btnName">Close</button>
+        <ul id="menu-top-left" class="open-top-left open">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JS</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <section class="section">
+            <h4>section</h4>
+			<p>section</p>
+            <hr>
+
+			<article>
+				<h5>article</h5>
+				<p>article</p>
+                <hr>
+                <div id="map"></div>
+			</article>
+
+			<article>
+				<h5>article</h5>
+				<p>article</p>
+                <hr>
+
+<!--                <form id="form1">
+                    <input type="text" placeholder="TEXT...">&nbsp;<button type="button" id="btnText">+</button>
+                </form>
+                <form id="form2">
+                    <input type="password" placeholder="PASSWORD...">&nbsp;<button type="button" id="btnpassword">+</button>
+                </form>-->
+			</article>
+
+            <article>
+                <h5>article</h5>
+                <p>article</p>
+                <hr>
+                <div id="newDiv" class="abc">text</div>
+            </article>
+
+            <article>
+                <h5>article</h5>
+                <p>article</p>
+                <hr>
+				<p>Какая ваша страна?</p>
+                <select accesskey="c" required autofocus tabindex="0" id="сountry" name="сountry">
+					<option disabled>Страны</option>
+                    <option value="1">Armenia</option>
+                    <option value="2">Russia</option>
+                    <option value="3">France</option>
+                    <option value="4">USA</option>
+                </select>
+				<p>Вот сталица!</p>
+                <select id="capital" name="capital">
+					<option disabled>Сталицы</option>
+                    <option value="1">Erevan</option>
+                    <option value="2">Mosckov</option>
+                    <option value="3">Parish</option>
+                    <option value="4">Vashington</option>
+                </select>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h6>footer</h6>
+		<p>footer</p>
+        <hr>
+        <a href="#top" target="_top"><b>Scroll top &#11014;</b></a>
+<!--		<address>
+			<b>Name:</b> Grigoryan Vahe Arseni <br>
+			<b>Address:</b> Armenia, Hrazdan, 229, 29 <br>
+			<b>Phone:</b> 098 77 99 33 <br>
+			<b>Web-site:</b> <a href="#">DFUT.com</a> <br>
+		</address>-->
+    </footer>
+</div>
+
+<!--Подключаем библиотеку через CDN
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<!--Подключение карты
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMUqGshcvaI4tV8VsR5cbo2DOmF_zz3io&callback=initMap" async defer></script>-->
+<!--Подключение Файл-библиотеки jquery-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--Подключение CDN-библиотеки jquery-ui-->
+<script src="js/jquery-ui.min.js"></script>
+<!--Подключенные Файл-скрипты-->
+<script src="js/javaScript.js" async defer></script>
+
+</body>
+</html>
