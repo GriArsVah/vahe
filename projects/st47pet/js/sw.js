@@ -2,10 +2,10 @@ const staticCacheName = 's-app-v0'
 const dynamicCacheName = 'd-app-v0'
 
 const assetUrls = [
-  'https://vahe.ga/projects/St47Pet/index.html',
-  'https://vahe.ga/projects/St47Pet/js/main.js',
-  'https://vahe.ga/projects/St47Pet/css/main.css',
-  'https://vahe.ga/projects/St47Pet/images/'
+  'index.html',
+  'js/main.js',
+  'css/main.css',
+  'images/'
 ]
 
 self.addEventListener('install', async event => {
@@ -48,6 +48,6 @@ async function networkFirst(request) {
     return response
   } catch (e) {
     const cached = await cache.match(request)
-    return cached ?? await caches.match('https://vahe.ga/projects/St47Pet/index.html')
+    return cached ?? await caches.match('https://vahe.ga/projects/St47Pet/')
   }
 }
