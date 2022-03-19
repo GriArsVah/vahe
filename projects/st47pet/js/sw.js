@@ -1,5 +1,5 @@
-const staticCacheName = 's-app-v0'
-const dynamicCacheName = 'd-app-v0'
+const staticCacheName = 's-app-v1'
+const dynamicCacheName = 'd-app-v1'
 
 const assetUrls = [
   'index.html',
@@ -48,6 +48,6 @@ async function networkFirst(request) {
     return response
   } catch (e) {
     const cached = await cache.match(request)
-    return cached ?? await caches.match('https://vahe.ga/projects/St47Pet/')
+    return cached ?? await caches.match('index.html')
   }
 }
