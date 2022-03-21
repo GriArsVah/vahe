@@ -24,3 +24,5 @@
 [data-theme="dark"] .bg-white {
   background-color: #000 !important;
 }
+
+.card{background-color: rgb(122, 122, 122);}
