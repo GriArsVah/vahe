@@ -1,12 +1,6 @@
-/*!
- * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
- * Copyright 2021 C.Oliff
- * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
- */
-
 [data-theme="dark"] {
   background-color: #111 !important;
-  color: #eee;
+  color: #fff;
 }
 
 [data-theme="dark"] .bg-black {
@@ -24,5 +18,3 @@
 [data-theme="dark"] .bg-white {
   background-color: #000 !important;
 }
-
-.card{background-color: rgb(122, 122, 122);}
