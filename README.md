@@ -13,7 +13,7 @@ it-frontend-web-app-site-page-framework-component-dev-tool
 ### My all pet-projects
 :white_check_mark: Это уже сделано  [vahe](https://vahe.ga/)
 
-:white_check_mark: Это уже сделано  [it-vahe](https://it-vahe.ga/)
+:white_check_mark: Это уже сделано  [app-vahe](https://app-vahe.ga/)
 ____
 [:arrow_up:Таблица](#table)
 
