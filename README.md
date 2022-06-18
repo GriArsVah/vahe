@@ -77,48 +77,6 @@ erDiagram
 ____
 [:arrow_up:Диаграмма 2](#diagram2)
 
-flowchart LR
-
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-
-____
-[:arrow_up:Диаграмма 3](#diagram3)
-
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-
-____
-[:arrow_up:Диаграмма 4](#diagram4)
-
-flowchart TB
-node1[Форма 1]  
-node2(Форма 2)
-node3([Форма 3])
-node4[[Форма 4]]
-node5[(Форма 5)]
-node6((Форма 6))
-node7>Форма 7]
-node8{Форма 8}
-node9{{Форма 9}}
-node10[/Форма 10/]
-node11[\Форма 11\]
-node12[/Форма 12\]
-node13[\Форма 13/]
-
-____
-[:arrow_up:Диаграмма 4](#diagram4)
-
-pie title Pets adopted by volunteers
-"Dogs" : 386
-"Cats" : 85
-"Rats" : 15
+```
+[code-past]:/img/codepast-logo.jpg "text1：text2"
+```
