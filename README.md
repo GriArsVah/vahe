@@ -26,7 +26,7 @@ ____
 
 ```mermaid
 erDiagram
-    vahe ||--o{ [This is an <b>important</b> <a href='https://google.com'>link</a>] : projects
+    vahe ||--o{ ["<a href='https://google.com'>link</a>"] : projects
     it-vahe
     vahe }|..|{ pro-vahe : code
 ```
