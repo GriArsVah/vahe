@@ -38,11 +38,13 @@ graph TD;
     A-->C;
     B-->D;
     C-->D;
+
 ____
 [:arrow_up:Диаграмма 3](#diagram3)
 
 graph TD
     A[This is an <b>important</b> <a href='https://google.com'>link</a>]
+
 ____
 [:arrow_up:Диаграмма 4](#diagram4)
 
