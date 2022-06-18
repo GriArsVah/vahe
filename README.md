@@ -43,8 +43,15 @@ C -->|Two| E[Result 2]
 ____
 [:arrow_up:Диаграмма 3](#diagram3)
 
-graph TD
-A[This is an <b>important</b> <a href='https://google.com'>link</a>]
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
 
 ____
 [:arrow_up:Диаграмма 4](#diagram4)
