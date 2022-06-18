@@ -20,7 +20,7 @@ ____
 | LEFT | CENTER | RIGHT |
 |----------------|:---------:|----------------:|
 | По левому краю | По центру | По правому краю |
-| [vahe](https://vahe.ga/) | [it](https://it-vahe.ga/) | [app](https://www.app-vahe.ga/) |
+| [it](https://it-vahe.ga/) | [vahe](https://vahe.ga/) | [app](https://www.app-vahe.ga/) |
 ____
 [:arrow_up:Диаграмма](#diagram)
 
