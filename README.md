@@ -62,3 +62,11 @@ flowchart TB
     node11[\Форма 11\]
     node12[/Форма 12\]
     node13[\Форма 13/]
+
+____
+[:arrow_up:Диаграмма 4](#diagram4)
+
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
