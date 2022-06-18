@@ -26,7 +26,15 @@ ____
 
 ```mermaid
 erDiagram
-    vahe ||--o{ ["<a href='https://google.com'>link</a>"] : projects
+    vahe ||--o{ [it-vahe.ga ] : projects
     it-vahe
     vahe }|..|{ pro-vahe : code
 ```
+____
+[:arrow_up:Диаграмма 2](#diagram2)
+
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
