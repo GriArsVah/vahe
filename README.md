@@ -76,5 +76,5 @@ erDiagram
 ```
 ____
 
-[:arrow_up:Диаграмма 2](#diagram2)
->在文末有code-past的定义：
+[:arrow_up:Диаграмма 2](#codeBlock)
+>Textcode-pasttext：
