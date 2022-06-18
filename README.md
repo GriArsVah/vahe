@@ -26,7 +26,7 @@ ____
 
 ```mermaid
 erDiagram
-    vahe ||--o{ it-vahe.ga : projects
+    vahe ||--o{ it-vahe : projects
     it-vahe
     vahe }|..|{ pro-vahe : code
 ```
@@ -40,10 +40,12 @@ graph TD;
     C-->D;
 ____
 [:arrow_up:Диаграмма 3](#diagram3)
+
 graph TD
     A[This is an <b>important</b> <a href='https://google.com'>link</a>]
 ____
 [:arrow_up:Диаграмма 4](#diagram4)
+
 flowchart TB
     node1[Форма 1]  
     node2(Форма 2)
