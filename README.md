@@ -75,8 +75,6 @@ erDiagram
     vahe }|..|{ pro-vahe : code
 ```
 ____
-[:arrow_up:Диаграмма 2](#diagram2)
 
-```
-[code-past]:/img/codepast-logo.jpg "text1：text2"
-```
+[:arrow_up:Диаграмма 2](#diagram2)
+>在文末有code-past的定义：
