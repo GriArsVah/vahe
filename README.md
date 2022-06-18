@@ -26,7 +26,7 @@ ____
 
 ```mermaid
 erDiagram
-    vahe ||--o{ "https://it-vahe.ga/" : projects
+    vahe ||--o{ <a href='https://it-vahe.ga/'>it-vahe.ga</a>] : projects
     it-vahe
     vahe }|..|{ pro-vahe : code
 ```
