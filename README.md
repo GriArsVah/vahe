@@ -34,39 +34,39 @@ ____
 [:arrow_up:Диаграмма 2](#diagram2)
 
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
 
 ____
 [:arrow_up:Диаграмма 3](#diagram3)
 
 graph TD
-    A[This is an <b>important</b> <a href='https://google.com'>link</a>]
+A[This is an <b>important</b> <a href='https://google.com'>link</a>]
 
 ____
 [:arrow_up:Диаграмма 4](#diagram4)
 
 flowchart TB
-    node1[Форма 1]  
-    node2(Форма 2)
-    node3([Форма 3])
-    node4[[Форма 4]]
-    node5[(Форма 5)]
-    node6((Форма 6))
-    node7>Форма 7]
-    node8{Форма 8}
-    node9{{Форма 9}}
-    node10[/Форма 10/]
-    node11[\Форма 11\]
-    node12[/Форма 12\]
-    node13[\Форма 13/]
+node1[Форма 1]  
+node2(Форма 2)
+node3([Форма 3])
+node4[[Форма 4]]
+node5[(Форма 5)]
+node6((Форма 6))
+node7>Форма 7]
+node8{Форма 8}
+node9{{Форма 9}}
+node10[/Форма 10/]
+node11[\Форма 11\]
+node12[/Форма 12\]
+node13[\Форма 13/]
 
 ____
 [:arrow_up:Диаграмма 4](#diagram4)
 
 pie title Pets adopted by volunteers
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
